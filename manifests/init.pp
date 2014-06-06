@@ -21,7 +21,7 @@ class mysql_windows (
         install_options => ['/VERYSILENT','/SUPPRESSMSGBOXES','/LOG'],
     }
 
-    $mysql_path = 'C:\Program Files\MySQL\MySQL Server 5.6\bin'
+    $mysql_path = 'C:\\Program Files\\MySQL\MySQL Server 5.6\\bin'
  
     windows_path { $mysql_path:
         ensure  => present,
