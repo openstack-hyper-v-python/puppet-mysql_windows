@@ -1,0 +1,9 @@
+name 'puppet-buildserver'
+version '0.0.1'
+
+author 'Gabriel Loewen <t-gabloe@microsoft.com>'
+license 'Apache20'
+project_page 'http://github.com/openstack-hyper-v-python/puppet-buildserver'
+source ''
+summary ''
+description ''
